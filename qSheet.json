@@ -1,0 +1,2435 @@
+{
+  "version": "0.1",
+  "queues": [
+    {
+      "pageNum": 1,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bubbleSet":[
+        {"url":"images/1-2/Artboard%201.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/farmhouse.mp4",
+          "description": "A group of men are sitting in a small wooden farmhouse. A tree in the corner is decorated with a box holding three wooden figures. One of the men is playing a guitar and the rest of the men are listening intently. A photographer stands in the foreground."
+        },
+        {
+          "time": 0.4,
+          "type": "videoPlay"
+        },
+        {
+          "time": 0.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "It’s January 6th in Guanica, Puerto Rico.",
+            "text_es": "Es el seis de enero en Guánica, Puerto Rico.",
+            "pos": { "x": 16, "y": 24 },
+            "width": 295
+          }
+        },
+        {
+          "time": 2.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "Three King’s Eve.",
+            "text_es": "La noche de Reyes.",
+            "pos": { "x": 228, "y": 127 },
+            "width": 130
+          }
+        },
+        {
+          "time": 4.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Tomorrow there will be parades and festivals, but tonight there is food and drink and music.\n Inside this tiny farmers home the playing has been going for hours. The air smells of ripe fruit, warm bodies and tobacco. ",
+            "text_es": "Mañana habrá desfiles y festivales, pero esta noche hay comida, bebida y música. En el interior de esta pequeña casa de campesinos la música suena desde hace horas. El aire huele a fruta madura, cuerpos calientes y tabaco. ",
+            "pos": { "x": 486, "y": 57 },
+            "width": 418
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":7.9,
+          "index":0
+        },
+        {
+          "time": 8.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "This is <strong>Jack Delano</strong>",
+            "text_es": "Este es <strong>Jack Delano</strong>",
+            "pos": { "x": 792, "y":204 },
+            "extra":"noBack",
+            "width": 148
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "backDims": {
+        "width": 1920,
+        "height": 1200
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/ballroom.mp4",
+          "description": "A man in the foreground is photographing a crowd of people in a ballroom. People are wearing formal dress. "
+        },
+        {
+          "time": 0.3,
+          "type": "videoPlay"
+        },
+        {
+          "time": 1.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Here’s jack again that same night, at a very different party, with a very different group of Puerto Ricans.",
+            "text_es": "Aquí está Jack nuevamente, esa misma noche, en una fiesta muy diferente, con un grupo muy diferente de puertorriqueños.",
+            "pos": { "x": 39, "y": 47 },
+            "width": 345
+          }
+        },
+        {
+          "time": 4.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "The suits are tailored, the shoes are shined.",
+            "text_es": "Los trajes están hechos a medida, los zapatos relucientes.",
+            "pos": { "x": 93, "y": 146 },
+            "width": 200
+          }
+        },
+        {
+          "time": 5.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "The parents are smoking American cigarettes.",
+            "text_es": "Los padres fuman cigarrillos americanos.",
+            "pos": { "x": 278, "y": 155 },
+            "width": 321
+          }
+        },
+        {
+          "time": 8.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Jack didn’t expect to be in Puerto Pico. But he’s determined to make the best out of it by doing what he knows:",
+            "text_es": "Jack no esperaba estar en Puerto Rico, pero está decidido a aprovecharlo al máximo, haciendo lo que sabe:",
+            "pos": { "x": 516, "y": 533 },
+            "width": 359
+          }
+        },
+        {
+          "time":8.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%201.png",
+          "pos": {
+            "x":351,
+            "y":596
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":9,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%202.png",
+          "pos": {
+            "x":449,
+            "y":590
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":9.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%203.png",
+          "pos": {
+            "x":596,
+            "y":602
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":10,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%204.png",
+          "pos": {
+            "x":711,
+            "y":595
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":10.5,
+          "type":"imageLoad",
+          "url":"images/3-4/Asset%205.png",
+          "pos": {
+            "x":835,
+            "y":587
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time": 11.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Telling the stories of peoples’ lives through his lens.",
+            "text_es": "contar la vida de la gente a través de su cámara.",
+            "pos": { "x": 505, "y": 685 },
+            "width": 483
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 3,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/tobacco.mp4",
+          "description":"A montage of small scenes. A coal miner emerges, dirty, from a mine, leading a mule. A girl hits a tobacco branch with  stick. A group of ship workers play pool."
+        },
+        {
+          "time": 0.4,
+          "type": "videoPlay"
+        },
+        {
+          "time": 0.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "In the two years before jack arrived in Puerto Rico he has photographed people from all walks of life... ",
+            "text_es": "Durante los dos años previos a su llegada a puerto rico, Jack ha fotografiado a personas de toda condición... ",
+            "pos": { "x": 26, "y": 15 },
+            "width": 295
+          }
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "Bootleg coal miners in Pennsylvania...",
+            "text_es": "Los mineros del carbón en Pensilvania...",
+            "pos": { "x": 75, "y": 641 },
+            "width": 210
+          }
+        },
+        {
+          "time":3.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%201.png",
+          "pos": {
+            "x":100,
+            "y":490
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":3.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%202.png",
+          "pos": {
+            "x":235,
+            "y":590
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time": 5,
+          "type": "caption",
+          "caption": {
+            "text_en": "Children working on tobacco plantations in Connecticut...",
+            "text_es": "niños trabajando en plantaciones de tabaco en Connecticut...",
+            "pos": { "x": 682, "y": 27 },
+            "width": 192
+          }
+        },
+        {
+          "time":5.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%203.png",
+          "pos": {
+            "x":431,
+            "y":600
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":5.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%204.png",
+          "pos": {
+            "x":589,
+            "y":640
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time": 7,
+          "type": "caption",
+          "caption": {
+            "text_en": "Ship builders on break in Maine.",
+            "text_es": "constructores de barcos durante su descanso en Maine.",
+            "pos": { "x": 748, "y": 451 },
+            "width": 148
+          }
+        },
+        {
+          "time":7.5,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%205.png",
+          "pos": {
+            "x":682,
+            "y":617
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.7,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%206.png",
+          "pos": {
+            "x":785,
+            "y":594
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":7.9,
+          "type":"imageLoad",
+          "url":"images/5-6/Asset%207.png",
+          "pos": {
+            "x":853,
+            "y":577
+          },
+          "animate":"fade,turn"
+        }
+      ]
+    },
+    {
+      "pageNum": 4,
+      "backDims": {
+        "width": 1920,
+        "height": 1080
+      },
+      "bubbleSet":[
+        {"url":"images/7-8/Artboard%201.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/railyard.mp4",
+          "description": "It is a cold winter night, snow is falling. A man with a camera is on a bridge over a rail yard where several trains are parked. A figure, perhaps a yard worker, walks across the tracks."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "time": 2.5,
+          "type": "caption",
+          "caption": {
+            "text_en": "Over the winter of 1941, Jack took a cross-country journey, photographing rail yards and workers.",
+            "text_es": "Durante el invierno de 1941, Jack emprendió un viaje a través del país, fotografiando estaciones de ferrocarril y trabajadores. ",
+            "pos": { "x": 247, "y": 569 },
+            "transform": "rotate(-8deg)",
+            "width": 296
+          }
+        },
+        {
+          "time":4.5,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%206.png",
+          "pos": {
+            "x":399,
+            "y":452
+          },
+          "animate":"fade,turn"
+        },
+      
+        {
+          "time":5.7,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%202.png",
+          "pos": {
+            "x":265,
+            "y":482
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":6.9,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%203.png",
+          "pos": {
+            "x":454,
+            "y":644
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":8.1,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%204.png",
+          "pos": {
+            "x":499,
+            "y":551
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "time":9.0,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%205.png",
+          "pos": {
+            "x":318,
+            "y":674
+          },
+          "animate":"fade,turn"
+        }, 
+        
+        
+        {
+          "type":"bubbles",
+          "time":9.9,
+          "index":0
+        },
+        {
+          "time": 10.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "This was the start of a years-long project that would result in some of the most iconic and important images of the era.",
+            "text_es": "Este fue el comienzo de un proyecto, el cual duró varios años, que daría como resultado algunas de las imágenes más icónicas e importantes de la época.",
+            "pos": { "x": 770, "y": 442 },
+            "extra":"noBackArrow trainSmall",
+            "transform": "rotate(4.65deg)",
+            "width": 200
+          }
+        }  ,
+        {
+          "time":11.5,
+          "type":"imageLoad",
+          "url":"images/7-8/Asset%201.png",
+          "pos": {
+            "x":599,
+            "y":526
+          },
+          "animate":"fade,turn"
+        }  
+
+      ]
+    },
+    {
+      "pageNum": 5,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/travel.mp4",
+          "description": "On the left, a series of comic book panels show a ship on the ocean, a scene from Pearl Harbour, a calendar page with en entry crossed out: it reads 'return to New York'. On the right, a photographer standing in front of scenes of a streetscape,  protest, and a family in a modest wooden shack."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "In December, 1941, Jack had been heading to the U.S. Virgin Islands on assignment...",
+            "text_es": "En diciembre de 1941, una misión llevó a Jack a las Islas Vírgenes de EE.UU. …   ",
+            "pos": { "x": 3, "y": 3 },
+            "width": 304
+          }
+        },
+        {
+          "type": "caption",
+          "time": 4,
+          "caption": {
+            "text_en": "at the exact moment <br>pre-war America ceased to exist.",
+            "text_es": "en el momento exacto en que la América de preguerra dejaba de existir.",
+            "pos": { "x": 211, "y": 411 },
+            "width": 234
+          }
+        },
+        {
+          "type": "caption",
+          "time": 6,
+          "caption": {
+            "text_en": "A few days became a week.",
+            "text_es": "Un par de días se convirtieron en una semana.",
+            "pos": { "x": 7, "y": 682 },
+            "width": 284
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8,
+          "caption": {
+            "text_en": "Jack had no way to leave Puerto Rico. His wife Irene was in NYC.",
+            "text_es": "Jack no tenía forma de salir de Puerto Rico. Su mujer, Irene, estaba en Nueva York.",
+            "pos": { "x": 527, "y": 76 },
+            "width": 200
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 10,
+          "caption": {
+            "text_en": "Irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.",
+            "text_es": "Irene, que no era paciente por naturaleza, entró de contrabando en Puerto Rico a bordo de un transatlántico.",
+            "pos": { "x": 525, "y": 423 },
+            "width": 236,
+            "extra":"smaller"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11.5,
+          "caption": {
+            "text_en": "From then on they were a team.",
+            "text_es": "A partir de entonces fueron un equipo.",
+            "pos": { "x": 502, "y": 501 },
+            "width": 145,
+            "extra":"smaller"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 13,
+          "caption": {
+            "text_en": "Over the next three months the Delanos will visit every part of the small caribbean island nation",
+            "text_es": "En los próximos tres meses, los Delanos visitarán todos los rincones del pequeño país insular caribeño.",
+            "pos": { "x": 536, "y": 571 },
+            "width": 263,
+            "extra":"smaller"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 15,
+          "caption": {
+            "text_en": "Jack will shoot more than <strong>2,000</strong> photographs.",
+            "text_es": "Jack tomará más de <strong>2000<strong> fotografías." ,
+            "pos": { "x": 705, "y": 651 },
+            "width": 255
+          }
+        },
+        {
+      "type": "imageLoad",
+        "time": 15.1,
+        "url": "images/9-10/Artboard%201.png",
+        "pos": {
+          "x":100,
+          "y":0
+        },
+        "animate":"fade"
+        }
+
+      ]
+    },
+    {
+  "pageNum": 6,
+  "backDims": {
+    "width": 1920,
+    "height": 1080
+  },
+  "bubbleSet":[
+        {"url":"images/11-12/Artboard%201.png"},
+        {"url":"images/11-12/Artboard%202.png"},
+        {"url":"images/11-12/Artboard%203.png"},
+        {"url":"images/11-12/Artboard%204.png"},
+        {"url":"images/11-12/Artboard%205.png"}
+      ],
+  "queues": [
+    {
+      "type": "imageLoad",
+      "time": 0.1,
+      "url": "images/Back11-14.png",
+      "width": 3840,
+      "height": 1080
+    },
+    {
+      "time": 0.2,
+      "type": "videoLoadTrans",
+      "url": "video/walking.webm",
+      "url2": "video/walking.mp4",
+      "slug":"walkers",
+      "offset": {
+        "x":960,
+        "y":-6
+      },
+      "dims":{
+        "w":1920,
+        "h":1540,
+        "scale":0.68
+      },
+      "description":"Thousands of photographs stretch across a backdrop of a map of Puerto Rico. A man and a woman step down across the captions."
+      
+    },
+    {
+      "time": 0.2,
+      "type": "imageDrift",
+      "amount":"-=50%",
+      "delay": 10,
+      "atime": 10
+    },
+    {
+      "time": 0.2,
+      "type": "capDrift"
+    },
+    {
+      "type": "caption",
+      "time": 1,
+      "caption": {
+        "text_en": "These photographs tell the story of a time",
+        "text_es": "Estas fotografías cuentan la historia de una época.",
+        "pos": {
+          "x": 34.38,
+          "y": 191.84
+        },
+        "width": 192.05
+      }
+    },
+    {
+      "type": "caption",
+      "time": 2,
+      "caption": {
+        "text_en": "The story of a place",
+        "text_es": "La historia de un lugar.",
+        "pos": {
+          "x": 96.83,
+          "y": 306.32
+        },
+        "width": 208.16
+      }
+    },
+    {
+      "type": "caption",
+      "time": 3,
+      "caption": {
+        "text_en": "The story of a nation.",
+        "text_es": "La historia de una nación.",
+        "pos": {
+          "x": 186.46,
+          "y": 384.81
+        },
+        "width": 205
+      }
+    },
+    {
+      "type": "caption",
+      "time": 4,
+      "caption": {
+        "text_en": "The story of a <strong>people</strong>.",
+        "text_es": "La historia de un <strong>pueblo</strong>.",
+        "pos": {
+          "x": 233.53,
+          "y": 460.84
+        },
+        "width": 222.86
+      }
+    },
+    {
+      "type":"bubbles",
+      "index":0,
+      "time":4.9
+    },
+    {
+      "type": "caption",
+      "time": 5,
+      "caption": {
+        "text_en": "In this photograph there is a dream",
+        "text_es": "En esta fotografía hay un sueño.",
+        "pos": {
+          "x": 624.24,
+          "y": 45.86
+        },
+        "width": 300,
+        "extra":"noBack trainSmall"
+      }
+    },
+    {
+      "type":"bubbles",
+      "index":1,
+      "time":5.9
+    },
+    {
+      "type": "caption",
+      "time": 6,
+      "caption": {
+        "text_en": "In this one there's a tragedy",
+        "text_es": "En esta hay una tragedia.",
+        "pos": {
+          "x": 754.1,
+          "y": 195.09
+        },
+        "width": 155.96,
+        "extra":"noBack trainSmall"
+      }
+    },
+    {
+      "type":"bubbles",
+      "index":2,
+      "time":6.9
+    },
+    {
+      "type": "caption",
+      "time": 7,
+      "caption": {
+        "text_en": "In this one there is a whole life left to be lived",
+        "text_es": "En esta hay una vida entera por vivir.",
+        "pos": {
+          "x": 504.34,
+          "y": 259.31
+        },
+        "width": 210.28,
+        "extra":"noBack trainSmall"
+      }
+    },
+    {
+      "type":"bubbles",
+      "index":3,
+      "time":7.9
+    },
+    {
+      "type": "caption",
+      "time": 8,
+      "caption": {
+        "text_en": "In this image there is a question",
+        "text_es": "En esta imagen hay una pregunta.",
+        "pos": {
+          "x": 764.12,
+          "y": 357.77
+        },
+        "width": 166.21,
+        "extra":"noBack trainSmall"
+      }
+    },
+    {
+      "type":"bubbles",
+      "index":4,
+      "time":8.9
+    },
+    {
+      "type": "caption",
+      "time": 9,
+      "caption": {
+        "text_en": "In this one there is an answer",
+        "text_es": "En esta hay una respuesta.",
+        "pos": {
+          "x": 548.25,
+          "y": 389.29
+        },
+        "width": 147.81,
+        "extra":"noBack trainSmall"
+      }
+    },
+    
+    {
+      "type": "caption",
+      "time": 10.5,
+      "caption": {
+        "text_en": "<strong>There are</strong>",
+        "text_es": "<strong>hay</strong>",
+        "pos": {
+          "x": 709.51,
+          "y": 654.06
+        },
+        "width": 130.38
+      }
+    },
+
+    
+    {
+      "type": "caption",
+      "time": 10.9,
+      "caption": {
+        "text_en": "<strong>so</strong>",
+        "text_es": "<strong>muchísimas</strong>",
+        "pos": {
+          "x": 833.33,
+          "y": 642.03
+        },
+        "width": 37.68,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 11.3,
+      "caption": {
+        "text_en": "<strong>many</strong>",
+        "text_es": "<strong>muchísimas</strong>",
+        "pos": {
+          "x": 886.56,
+          "y": 603.89
+        },
+        "width": 57.61,
+        "extra": "small"  
+      }
+    },
+    {
+      "type": "caption",
+      "time": 11.5,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 959.55,
+          "y": 552.84
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 11.7,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 968.75,
+          "y": 477.65
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 11.9,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1016.47,
+          "y": 205.95
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 12.1,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1030.14,
+          "y": 449.84
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 12.3,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1047.16,
+          "y": 140.05
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 12.5,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1059.66,
+          "y": 413.91
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 12.7,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1075.57,
+          "y": 266.18
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 12.9,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1093.75,
+          "y": 173
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 13.1,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1101.7,
+          "y": 358.23
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 13.3,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1105.98,
+          "y": 302.11
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 13.5,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1150.57,
+          "y": 234.36
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 13.7,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1152.01,
+          "y": 488.2
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 13.9,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1156.25,
+          "y": 156.82
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 14.1,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1177.28,
+          "y": 472.85
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 14.3,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1182.38,
+          "y": 393.45
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 14.5,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1184.66,
+          "y": 318.45
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 14.7,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1191.47,
+          "y": 209.36
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 14.9,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1199.43,
+          "y": 278.68
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 15.1,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1242.61,
+          "y": 446.59
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 15.3,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1247.16,
+          "y": 357.95
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 15.5,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1248.29,
+          "y": 182.09
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 15.7,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1268.64,
+          "y": 240.23
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type":"videoPlay",
+      "time":15.85
+    },
+    {
+      "type": "caption",
+      "time": 15.9,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1270.77,
+          "y": 529.13
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 16.1,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1275.57,
+          "y": 479.55
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 16.3,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1292.19,
+          "y": 321.82
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 16.5,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1292.61,
+          "y": 151.41
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 16.7,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1308.52,
+          "y": 416.77
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 16.9,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1342.05,
+          "y": 303.53
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 17.1,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1347.16,
+          "y": 224.14
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 17.3,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1353.72,
+          "y": 496.17
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 17.5,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1354.04,
+          "y": 364.38
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 17.7,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1368.75,
+          "y": 538.64
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 17.9,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1411.93,
+          "y": 188.64
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 18.1,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1416.6,
+          "y": 295.88
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 18.3,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1435.54,
+          "y": 359.81
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 18.5,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1438.07,
+          "y": 445.73
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 18.7,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1440.34,
+          "y": 310.23
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 18.9,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1468.48,
+          "y": 481.65
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 19.1,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1473.29,
+          "y": 247.45
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 19.3,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1513.07,
+          "y": 413.91
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 19.5,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1518.49,
+          "y": 326.86
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 19.700000000000003,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1533.52,
+          "y": 369.32
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 19.9,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1540.62,
+          "y": 499.86
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 20.1,
+      "caption": {
+        "text_en": "many",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1561.93,
+          "y": 458.23
+        },
+        "width": 54,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 20.3,
+      "caption": {
+        "text_en": "so",
+        "text_es": "muchísimas",
+        "pos": {
+          "x": 1567.01,
+          "y": 544.6
+        },
+        "width": 36,
+        "extra": "small"
+      }
+    },
+    {
+      "type": "caption",
+      "time": 21,
+      "caption": {
+        "text_en": "<strong>so</strong>",
+        "text_es": "<strong>muchísimas</strong>",
+        "pos": {
+          "x": 1625.59,
+          "y": 591.21
+        },
+        "width": 60.23
+      }
+    },
+    {
+      "type": "caption",
+      "time": 22,
+      "caption": {
+        "text_en": "<strong>many</strong>",
+        "text_es": "<strong>muchísimas</strong>",
+        "pos": {
+          "x": 1683.53,
+          "y": 621.67
+        },
+        "width": 70.81
+      }
+    },
+    {
+      "type": "caption",
+      "time": 23,
+      "caption": {
+        "text_en": "<strong>stories.</strong>",
+        "text_es": "<strong>historias</strong>",
+        "pos": {
+          "x": 1777.21,
+          "y": 661.5
+        },
+        "width": 101.78
+      }
+    }
+  ]
+},
+    
+    {
+      "pageNum": 7,
+      "backDims": { "width": 1920, "height": 1080 },
+      "bubbleSet":[
+        {"url":"images/15-16/Artboard%201.png"},
+        {"url":"images/15-16/Artboard%202.png"},
+        {"url":"images/15-16/Artboard%203.png"},
+        {"url":"images/15-16/Artboard%204.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/negatives.mp4",
+          "description": "On the left, a man and a woman hold photographs in their hand. They appear contemplative. On the right, two people seated at desks. The first person has a number of carts with boxes around their desk, and is looking at a photograph. The second person has mountains of boxes at their desk, and is very old."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "type":"bubbles",
+          "time":0.9,
+          "index":0
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "We sent all of our negatives by mail to Washington to be developed.",
+            "text_es": "Enviamos todos nuestros negativos por correo a Washington para que los revelaran.",
+            "pos": { "x": 135, "y": 0 },
+            "extra": "noBack trainSmall",
+            "width": 203
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":2.9,
+          "index":1
+        },
+        {
+          "type": "caption",
+          "time": 3.0,
+          "caption": {
+            "text_en": "Roy Stryker would have prints made of the ones he liked most and send them back.",
+            "text_es": "Roy stryker mandaba hacer copias de las que más le gustaban y las enviaba de regreso.",
+            "pos": { "x": 200, "y": 154 },
+            "extra": "noBack trainSmall",
+            "width": 243
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":6.9,
+          "index":2
+        },
+        {
+          "type": "caption",
+          "time": 7,
+          "caption": {
+            "text_en": "We spent our evenings filling in caption books with details about each frame we shot.",
+            "text_es": "Nos pasábamos las tardes rellenando álbumes de fotos con detalles sobre cada fotograma que tomábamos.",
+            "pos": { "x": 100, "y": 265 },
+            "extra": "noBack trainSmall",
+            "width": 223
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":8.9,
+          "index":3
+        },
+        {
+          "type": "caption",
+          "time": 9,
+          "caption": {
+            "text_en": "We wrote long letters back to roy, too. But it seems like many of those have gotten lost.",
+            "text_es": "Nosotros también escribimos largas cartas a Roy. pero parece que muchas de ellas se han perdido.",
+            "pos": { "x": 210, "y": 460 },
+            "extra": "noBack trainSmall",
+            "width": 220
+          }
+        },
+        {
+          "type": "caption",
+          "time": 12,
+          "caption": {
+            "text_en": "If you spent just five minutes describing each photo Jack Delano took in Puerto Rico, it’d take you 65 days.",
+            "text_es": "Si dedicaras apenas cinco minutos a describir cada foto que Jack Delano tomó en Puerto Rico, te llevaría 65 días.",
+            "pos": { "x": 513, "y": 10 },
+            "width": 418
+          }
+        },
+        {
+          "type": "caption",
+          "time": 15,
+          "caption": {
+            "text_en": "if you spent just one minute with every photograph in the Library’s photo collection, you’d be there for more than twenty-six years.",
+            "text_es": "Si pasaras tan solo un minuto con cada fotografía de la colección fotográfica de la biblioteca, estarías allí durante más de 26 años.",
+            "pos": { "x": 575, "y": 646 },
+            "width": 411
+          }
+        }
+
+      ]
+    },
+    {
+      "pageNum": 8,
+      "backDims": { "width": 1920, "height": 1080 },
+      "bubbleSet":[
+        {"url":"images/17-18/Artboard%201.png"},
+        {"url":"images/17-18/Artboard%202.png"},
+        {"url":"images/17-18/Artboard%203.png"},
+        {"url":"images/17-18/Artboard%204.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/helena.mp4",
+          "description":"A woman in a purple jacket stands in the stacks of a library. She is looking at a photograph and holding an archival box. The same woman is shown in the foreground, speaking."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "type": "caption",
+          "time": 1,
+          "caption": {
+            "text_en": "This is <strong>Helena Zinkham</strong>, chief of the Library of Congress Prints and Photographs Division.",
+            "text_es": "Esta es <strong>Helena Zinkham</strong>, jefa de la división de publicaciones y fotografías de la biblioteca del congreso.",
+            "pos": { "x": 19, "y": 22 },
+            "width": 278
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":2.9,
+          "index":0
+        },
+        {
+          "type": "caption",
+          "time": 3,
+          "caption": {
+            "text_en": "When somebody goes searching for a photograph at the Library of Congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.",
+            "text_es": "Cuando alguien va a buscar una fotografía a la biblioteca del congreso, sus posibilidades de encontrarla realmente dependen de cuánta información haya adjunta a esa fotografía.",
+            "pos": { "x": 475, "y": 50 },
+            "extra": "noBack trainSmall",
+            "width": 310
+          }
+        },
+         {
+          "type": "imageLoad",
+          "time": 3.1,
+          "url": "images/17-18/Asset%201.png",
+          "pos":{
+            "x":217,
+            "y":98
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "imageLoad",
+          "time": 3.9,
+          "url": "images/17-18/Asset%202.png",
+          "pos":{
+            "x":738,
+            "y":209
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type":"bubbles",
+          "time":6.4,
+          "index":1
+        },
+        {
+          "type": "caption",
+          "time": 6.5,
+          "caption": {
+            "text_en": "Every little piece of data makes an object more findable.",
+            "text_es": "Cada pequeño dato hace que un objeto sea más localizable.",
+            "pos": { "x": 790, "y": 110 },
+            "extra": "noBack trainSmall ",
+            "width": 179
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":8.4,
+          "index":2
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "Our catalogers do their best to add as many details to the records as they can.",
+            "text_es": "Nuestros catalogadores hacen todo lo posible por añadir tantos detalles a los registros como pueden.",
+            "pos": { "x": 745, "y": 435 },
+            "extra": "noBack trainSmall",
+            "width": 227
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":10.4,
+          "index":3
+        },
+         {
+          "type": "caption",
+          "time": 10.5,
+          "caption": {
+            "text_en": "But there are more than <strong>fourteen million photographs</strong> in the collection and for a lot of those images there is very little information in the catalog.",
+            "text_es": "Pero hay más de <strong>catorce millones</strong> de fotografías en la colección, y hay muy poca información en el catálogo sobre muchas de esas imágenes.",
+            "pos": { "x": 490, "y": 495 },
+            "extra": "noBack trainSmall",
+            "width": 261
+          }
+        },
+        {
+          "type": "caption",
+          "time": 14,
+          "caption": {
+            "text_en": "What if computers could help Helena's team to fill some of the gaps in the catalog data? this could make photos like Jack’s more findable for anyone looking for images of Puerto Rico in the 1940s.",
+            "text_es": "¿Y si las computadoras pudieran ayudar al equipo de Helena a completar algunos datos faltantes del catálogo? Esto podría hacer que fotos como las de Jack fueran más fáciles de encontrar para cualquiera que busque imágenes de Puerto Rico en la década del cuarenta.",
+            "pos": { "x": 546, "y": 630 },
+            "width": 414
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 9,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "type": "imageLoad",
+          "time": 0.1,
+          "url": "images/Back19-20.png",
+          "width": 1153,
+          "height": 827
+        },
+
+        {
+          "time": 0.1,
+          "type": "videoLoadTrans",
+          "url": "video/line.webm",
+          "url2": "video/line.mp4",
+          "slug":"line",
+          "offset": {
+            "x":0,
+            "y":0
+          },
+          "dims": {
+            "w": 1920,
+            "h": 1080
+          }
+        },
+        
+        {
+          "time":1.0,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%203.png",
+          "pos": {
+            "x":173,
+            "y":-10
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type":"videoPlay",
+          "time":1.5
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "Let's give it a try with this image.",
+            "text_es": "vamos a intentarlo con esta imagen.",
+            "pos": { "x": 37, "y": 91 },
+            "transform": "rotate(-7.6deg)",
+            "width": 145,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "We’LL use a machine learning model called <strong>The Vision Transformer</strong> (VIT).",  
+            "text_es": "Utilizaremos un modelo de aprendizaje automático llamado <strong>Transformador de Visión</strong> (VIT en inglés).",
+            "pos": { "x": 26, "y": 171 },
+            "width": 338,
+            "extra":"trainSmall"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 4.5,
+          "caption": {
+            "text_en": "The vision transformer does <strong>two things</strong>.",
+            "text_es": "El transformador de visión hace <strong>dos cosas</strong>.",
+            "pos": { "x": 47, "y": 237 },
+            "transform": "rotate(3deg)",
+            "width": 325,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":5.5,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%201.png",
+          "pos": {
+            "x":118,
+            "y":231
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 6.5,
+          "caption": {
+            "text_en": "1. It tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.",
+            "text_es": "1. Intenta detectar elementos conocidos en la imagen  (cosas como personas, autos o flores), y  aprende el tamaño y la posición de esas cosas.",
+            "pos": { "x": 119, "y": 432 },
+            "transform": "rotate(-2deg)",
+            "width": 356,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "2. It uses what it has learned from the labelled images it was trained on to generate a new caption.",
+            "text_es": "2. Utiliza lo que ha aprendido de las imágenes etiquetadas,  con las que ha sido entrenado para generar una nueva leyenda",
+            "pos": { "x": 65, "y": 503 },
+            "transform": "rotate(6deg)",
+            "width": 239,
+            "extra":"trainSmall"
+          }
+        },
+
+        {
+          "type": "caption",
+          "time": 9.1,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a man standing next to a building with a horse \"<br>}",
+            "pos": { "x": 88, "y": 584 },
+            "transform": "rotate(-6deg)",
+            "width": 332,
+            "extra":"code"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 10.9,
+          "caption": {
+            "text_en": "Sometimes the image descriptions we get from Jack’s images of Puerto Rico are accurate... if a little bit unimaginative.",
+            "text_es": "A veces, las descripciones de las imágenes que obtenemos de las fotos de Jack de Puerto Rico son precisas... aunque poco imaginativas.",
+            "pos": { "x": 506, "y": 668 },
+            "transform": "rotate(4deg)",
+            "width": 426,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":12,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%204.png",
+          "pos": {
+            "x":511,
+            "y":518
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 12.5,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"people standing around a building \"<br>}",
+            "pos": { "x": 711, "y": 551 },
+            "transform": "rotate(2deg)",
+            "width": 255,
+            "extra":"code smaller"
+          }
+        },
+
+        {
+          "type": "caption",
+          "time": 14,
+          "caption": {
+            "text_en": "Very often though, the models struggle with objects that aren’t found a lot in their training sets (like sugar cane)",
+            "text_es": "Sin embargo, a menudo los modelos tienen dificultades con objetos que no aparecen mucho en su material de entrenamiento (como la caña de azúcar).",
+            "pos": { "x": 653, "y": 408 },
+            "transform": "rotate(3deg)",
+            "width": 268,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":15,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%202.png",
+          "pos": {
+            "x":699,
+            "y":256
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 15.5,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a man in a field with a bunch of dead trees \"<br>}",
+            "pos": { "x": 513, "y": 281 },
+            "transform": "rotate(-5deg)",
+            "width": 255,
+            "extra":"code smaller"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 18,
+          "caption": {
+            "text_en": "... and places that aren’t in their world view, like low-income settlements.",
+            "text_es": "... y lugares que no están en su visión del mundo, como los  asentamientos irregulares.",
+            "pos": { "x": 605, "y": 197 },
+            "transform": "rotate(-2deg)",
+            "width": 301,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time":19,
+          "type":"imageLoad",
+          "url":"images/19-20/Asset%205.png",
+          "pos": {
+            "x":509,
+            "y":8
+          },
+          "animate":"fade,turn"
+        },
+        {
+          "type": "caption",
+          "time": 19.5,
+          "caption": {
+            "text_en": "{<br> \"generated_text\": <br>&emsp;&emsp;&emsp;\"a woman is standing in a parking lot \"<br>}",
+            "pos": { "x": 696, "y": 122 },
+            "transform": "rotate(2deg)",
+            "width": 255,
+            "extra":"code smaller"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 22,
+          "caption": {
+            "text_en": "These machine-generated captions come nowhere near the Library’s exacting standards.",
+            "text_es": "estas leyendas generadas por máquinas están lejísimos de las normas de exactitud de la biblioteca.",
+            "pos": { "x": 690, "y": 46 },
+            "transform": "rotate(2deg)",
+            "width": 261,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 24,
+          "caption": {
+            "text_en": "They’re often worse than having no caption at all.",
+            "text_es": "a menudo son peores que no tener ninguna leyenda.",
+            "pos": { "x": 570, "y": 12 },
+            "width": 398,
+            "extra":"trainSmall"
+          }
+        }
+
+      ]
+    },
+    {
+      "pageNum": 10,
+      "backDims": { "width": 1920, "height": 1080 },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/cats.mp4",
+          "description":"A group of people work in various different settings: Sitting on the floor, working together at a long desk, and seated at tables in a cafe. At the bottom right there is a pile of thirty cats, playing and cuddling each other."
+        },
+        {
+          "time":1,
+          "type":"imageLoad",
+          "url":"images/21-22/Artboard%201.png",
+          "pos": {
+            "x":0,
+            "y":0
+          },
+          "animate":"fade"
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "These kinds of machine learning models are often trained on a 2012 dataset called <strong>ImageNet</strong>.",
+            "text_es": "El entrenamiento de este tipo de modelos de aprendizaje automático suelen basarse en un conjunto de datos de 2012 llamado <strong>ImageNet</strong>.",
+            "pos": { "x": 5, "y":5 },
+            "width": 223,
+            "extra":"trainSmall"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 3.5,
+          "caption": {
+            "text_en": "Imagenet contains <strong>14,197,122</strong> images, scraped from <strong>the internet</strong>.",
+            "text_es": "Imagenet contiene <strong>14.197.122<.strong> imágenes extraídas <strong>de Internet</strong>.",
+            "pos": { "x": 63, "y": 80 },
+            "width": 285,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "time": 4.0,
+          "type": "videoPlay"
+        },
+        {
+          "time": 5.7,
+          "type": "imageDrift",
+          "amount": "-=17%",
+          "delay": 0,
+          "atime": 5
+         },
+        
+
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "These images were individually tagged by content workers all around the world (who were often making far less than minimum wage).",
+            "text_es": "estas imágenes fueron etiquetadas individualmente por trabajadores de contenidos de todo el mundo (que a menudo ganaban mucho menos que el salario mínimo).",
+            "pos": { "x": 624, "y": 4 },
+            "width": 271,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11,
+          "caption": {
+            "text_en": "Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called <strong>wordnet</strong>.",
+            "text_es": "los trabajadores podían elegir etiquetar las imágenes a partir de 22.000 'clases', tomadas de una base de datos léxica llamada <strong>wordnet</strong>.",
+            "pos": { "x": 185, "y": 340 },
+            "width": 320,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 14.5,
+          "caption": {
+            "text_en": "The classes themselves came from grad students who, in the 1990s, hand-tagged text content from <br><strong>the Wall Street Journal.</strong>",
+            "text_es": "las propias clases proceden de estudiantes de posgrado que, en los años 90, etiquetaron a mano el contenido escrito del </strong>Wall Street Journal<strong>.",
+            "pos": { "x": 32, "y": 533 },
+            "width": 271,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 16.5,
+          "caption": {
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the <strong>internet/<strong> (memes and all), read through the lens of a newspaper from <strong>New York City</strong>, written for middle-aged stock traders.",
+            "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de <strong>internet</strong> (incluyendo memes y el resto), leído a través de la lente de un periódico de <strong>nueva york</strong>, escrito para operadores de bolsa de mediana edad.",
+            "pos": { "x": 145, "y": 637 },
+            "width": 329,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 19,
+          "caption": {
+            "text_en": "<strong>It is a model that knows a lot about cats...</strong>",
+            "text_es": "<strong>Es un modelo que sabe mucho sobre gatos…</strong>",
+            "pos": { "x": 532, "y": 607 },
+            "width": 297
+          }
+        },
+        {
+          "type": "caption",
+          "time": 22,
+          "caption": {
+            "text_en": "<strong>and very little about Puerto Rico in the 1940s.</strong>",
+            "text_es": "<strong>y muy poco sobre  puerto rico en la década del 40.</strong>",
+            "pos": { "x": 709, "y": 667 },
+            "width": 255
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 11,
+      "backDims": { "width": 1920, "height": 1080 },
+      "bubbleSet":[
+        {"url":"images/23-24/Artboard%201.png"},
+        {"url":"images/23-24/Artboard%202.png"},
+        {"url":"images/23-24/Artboard%203.png"},
+        {"url":"images/23-24/Artboard%204.png"},
+        {"url":"images/23-24/Artboard%205.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/school.mp4",
+          "description":"On the left, there is a grid of four portraits: A young girl, an older woman, an elderly man and a younger man holding a pencil. On the right, there is a group of high school students standing in front of a bank of lockers. Below them in a separate frame is a mother with two young children."
+        },
+        {
+          "type": "caption",
+          "time": 1.5,
+          "caption": {
+            "text_en": "Instead of a model trained on random images from the internet, we might imagine a model trained on the thousands of images Jack Delano took in Puerto Rico, and thousands more images from the Library of Congress collections. a tool like this could help a lot of people...",
+            "text_es": "En lugar de un modelo entrenado con imágenes aleatorias de internet, podríamos imaginar un modelo entrenado con las miles de fotos que jack delano tomó en puerto rico, y miles de imágenes más de las colecciones de la biblioteca del congreso. una herramienta como esta podría ayudar a mucha gente...",
+            "pos": { "x": 3, "y": 3 },
+            "width": 478
+          }
+        },
+        {
+          "time": 6.1,
+          "type": "videoPlay"
+        },
+        {
+          "type": "caption",
+          "time": 6.5,
+          "caption": {
+            "text_en": "A 9 year old girl who wants to know more about how her grandparents grew up",
+            "text_es": "una niña de nueve años que quiere  saber más sobre cómo crecieron sus abuelos",
+            "pos": { "x": 3, "y": 339 },
+            "width": 226,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 8.5,
+          "caption": {
+            "text_en": "A researcher who’s studying latin american labor movements",
+            "text_es": "Un investigador que estudia los movimientos obreros latinoamericanos",
+            "pos": { "x": 293, "y": 262 },
+            "width": 185,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 11.0,
+          "caption": {
+            "text_en": "An old man who is trying to remember the faces of his friends",
+            "text_es": "un anciano que intenta recordar las caras de sus amigos",
+            "pos": { "x": 16, "y": 614 },
+            "width": 126,
+            "extra":"trainSmall"
+          }
+        },
+        
+        {
+          "type": "caption",
+          "time": 13.5,
+          "caption": {
+            "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
+            "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
+            "pos": { "x": 310, "y": 638 },
+            "width": 202,
+            "extra":"trainSmall"
+          }
+        },
+        {
+          "type": "caption",
+          "time": 16,
+          "caption": {
+            "text_en": "It would also raise a lot of questions.",
+            "text_es": "también suscitaría muchas preguntas.",
+            "pos": { "x": 584, "y": -8 },
+            "width": 388
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":18.9,
+          "index":0
+        },
+        {
+          "type": "caption",
+          "time": 19,
+          "caption": {
+            "text_en": "Why is all of this kind of work being done by big, for-profit companies?",
+            "text_es": "¿Por qué todo este tipo de trabajo lo realizan grandes empresas con ánimo de lucro?",
+            "pos": { "x": 525, "y": 35 },
+            "extra": "noBack smaller",
+            "width": 199
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":20.9,
+          "index":1
+        },
+        {
+          "type": "caption",
+          "time": 21,
+          "caption": {
+            "text_en": "And why does the data always seem to get used by people who aren’t Puerto Rican?",
+            "text_es": "¿y por qué los datos siempre parecen ser usados por personas que no son puertorriqueñas?",
+            "pos": { "x": 750, "y": 44 },
+            "extra": "noBack smaller",
+            "width": 209
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":22.9,
+          "index":2
+        },
+        {
+          "type": "caption",
+          "time": 23,
+          "caption": {
+            "text_en": "It all just feels like another flavor of colonialism.",
+            "text_es": "todo esto parece ser colonialismo con otro sabor.",
+            "pos": { "x": 820, "y": 215 },
+            "extra": "noBack smaller",
+            "width": 172
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":25.9,
+          "index":3
+        },
+        {
+          "type": "caption",
+          "time": 26,
+          "caption": {
+            "text_en": "If images of my ancestors are being used to train facial recognition, what does that mean for me?",
+            "text_es": "si se utilizan imágenes de mis antepasados para entrenar el reconocimiento facial, ¿qué significa eso para mí?",
+            "pos": { "x": 629, "y": 365 },
+            "extra": "noBack smaller",
+            "width": 210
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":27.9,
+          "index":4
+        },
+        {
+          "type": "caption",
+          "time": 28,
+          "caption": {
+            "text_en": "What does it mean for my kids?",
+            "text_es": "¿Qué significa para mis hijos?",
+            "pos": { "x": 836, "y": 415 },
+            "extra": "noBack smaller",
+            "width": 116
+          }
+        },
+        {
+          "type": "caption",
+          "time": 31,
+          "caption": {
+            "text_en": "Thinking about <strong>A.I.</strong> in the context of <strong>communities</strong>, <strong>care</strong>, and <strong<strong>responsibility</strong> is hard, but <strong>necessary</strong>.",
+            "text_es": "Es difícil mas </strong>necesario<strong> pensar en la <strong>inteligencia artificial</strong> en el contexto de las <strong>comunidades</strong>, el </strong>cuidado<strong> y la <strong>responsabilidad</strong>.",
+            "pos": { "x": 521, "y": 602 },
+            "width": 387,
+            "extra": ""
+          }
+        },
+        {
+          "type": "caption",
+          "time": 34,
+          "caption": {
+            "text_en": "We might ask our friend Jack Delano for some advice...",
+            "text_es": "podríamos pedirle consejo a nuestro amigo Jack Delano…",
+            "pos": { "x": 655, "y": 679 },
+            "width": 277,
+            "extra": ""
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 12,
+      "backDims": { "width": 1920, "height": 1080 },
+      "bubbleSet":[
+        {"url":"images/25-26/Artboard%201.png"},
+        {"url":"images/25-26/Artboard%202.png"},
+        {"url":"images/25-26/Artboard%203.png"},
+        {"url":"images/25-26/Artboard%204.png"}
+      ],
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/twojacks.mp4",
+          "description": "There are two versions of the same man: a younger one standing on the left looking at a strip of photographic negatives, and an older one seated at a desk."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "type":"bubbles",
+          "time":2.4,
+          "index":0
+        },
+        {
+          "type": "caption",
+          "time": 2.5,
+          "caption": {
+            "text_en": "There’s no way we could have known about the ways our photographs might be used eighty years in the future.",
+            "text_es": "jamás podríamos haber imaginado cómo se utilizarían nuestras fotografías ochenta años más tarde.",
+            "pos": { "x": 122, "y": 80 },
+            "extra": "noBack smaller",
+            "width": 227
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":5.4,
+          "index":1
+        },
+        {
+          "type": "caption",
+          "time": 5.5,
+          "caption": {
+            "text_en": "Machine labeling? facial recognition? None of that would have even occurred to us.",
+            "text_es": "¿etiquetado automático? ¿reconocimiento facial? Nada de eso se nos habría ocurrido.",
+            "pos": { "x": 505, "y": 166 },
+            "extra": "noBack trainSmall",
+            "width": 223
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":7.9,
+          "index":2
+        },
+        {
+          "type": "caption",
+          "time": 8,
+          "caption": {
+            "text_en": "But we always did have one principle that guided the work that we did. All of it, from Pennsylvania to Puerto Rico.",
+            "text_es": "Pero siempre tuvimos un principio que guiaba el trabajo que hacíamos. Todo ello, desde Pensilvania hasta Puerto Rico.",
+            "pos": { "x": 730, "y": 80 },
+            "extra": "noBack trainSmall",
+            "width": 219
+          }
+        },
+        {
+          "type":"bubbles",
+          "time":10.9,
+          "index":3
+        },
+        {
+          "type": "caption",
+          "time": 11,
+          "caption": {
+            "text_en": "And that was to always treat our subjects with <strong>respect</strong>.",
+            "text_es": "Y era tratar siempre a nuestros temas con <strong>respeto</strong>.",
+            "pos": { "x": 540, "y": 40 },
+            "extra": "noBack trainSmall",
+            "width": 177
+          }
+        }
+      ]
+    },
+     {
+      "pageNum": 13,
+      "backDims": {
+        "width": 1920,
+        "height": 1200
+      },
+      "queues": [
+        {
+          "time": 0,
+          "type": "videoLoad",
+          "url": "video/community.mp4",
+          "description": "A group of people are in a room, perhaps in a school or a community center. There are photographs posted on the walls, and on table in the center. There are a number of people around the room and at the table, talking and working together. There are elderly people and kids of a variety of ethnicity, and there is a dog wagging its tail with its paws up on the table."
+        },
+        {
+          "time": 0.1,
+          "type": "videoPlay"
+        },
+        {
+          "time": 3.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "<strong>Respect</strong> means making sure the people who are most deeply connected to the data are in the room when decisions are made",
+            "text_es": "<strong>respeto</strong> significa asegurarse de que las personas  que están más profundamente vinculadas a los datos,  estén en la sala cuando se toman las decisiones",
+            "pos": { "x": 10, "y": 10 },
+            "width": 300
+          }
+        },
+        {
+          "time": 6.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "It means imagining ways these technologies might <strong>help</strong> people and communities, while also being mindful of <strong>risks</strong> and <strong>harms</strong> and unexpected <strong>consequences</strong>.",
+            "text_es": "significa imaginar formas en que estas tecnologías podrían ayudar a las personas y a las comunidades, sin perder de vista los <strong>riesgos</strong>, los </strong>daños<strong> y las </strong>consecuencias<strong> inesperadas.",
+            "pos": { "x": 14, "y": 117 },
+            "width": 275
+          }
+        },
+        {
+          "time": 10.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "It means coming together to <strong>talk</strong>.",
+            "text_es": "significa juntarse para <strong>hablar</strong>.",
+            "pos": { "x": 301, "y": 295 },
+            "width": 180
+          }
+        },
+        {
+          "time": 12.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "To <strong>listen</strong>.",
+            "text_es": "para <strong>escuchar</strong>.",
+            "pos": { "x": 688, "y": 139 },
+            "width": 119
+          }
+        },
+        {
+          "time": 14.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "To <strong>learn</strong>.",
+            "text_es": "para <strong>aprender</strong>.",
+            "pos": { "x": 439, "y": 380 },
+            "width": 119
+          }
+        },
+        {
+          "time": 15.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "To <strong>collaborate</strong>.",
+            "text_es": "para colaborar.",
+            "pos": { "x": 827, "y": 214 },
+            "width": 173
+          }
+        },
+        {
+          "time": 17.0,
+          "type": "caption",
+          "caption": {
+            "text_en": "<strong>To dream</strong>.",
+            "text_es": "<strong>para soñar</strong>.",
+            "pos": { "x": 786, "y": 635 },
+            "width": 155,
+            "extra":"bigger"
+          }
+        }
+      ]
+    }
+  ]
+
+}

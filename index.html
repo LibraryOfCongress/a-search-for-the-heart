@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <meta charset="utf-8" />
+
+    <title>A Search For the Heart</title>
+
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:title" content="A Search for the Heart: Digital collections, machine learning and legacies of care" />
+    <meta property="og:type" content="article" />
+    <meta name="og:image" content="https://LibraryOfCongress.github.io/a-search-for-the-heart/images/TwitterImageWalkers.jpg" />
+    <meta property="og:description" content="Machine learning models are hungry for content from libraries and cultural insitutions. How can we imagine ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences?" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="A Search for the Heart: Digital collections, machine learning and legacies of care"
+    />
+    <meta name="twitter:description" content="Machine learning models are hungry for content from libraries and cultural insitutions. How can we imagine ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences?"
+    />
+    <meta name="twitter:image" content="https://LibraryOfCongress.github.io/a-search-for-the-heart/images/TwitterImageWalkers.jpg" />
+    <meta name="twitter:url" content="https://LibraryOfCongress.github.io/a-search-for-the-heart/" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xcb2vhl.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="scrollama.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body lang="en">
+  <div class="content">
+    <div class= "article">
+      <!-- This is the start of content for our page -->
+      <h1 class="title" lang="en">A Search &nbsp for the Heart</h1>
+      <h1 class="title" lang="es">En Busca del Corazón</h1>
+      <h2 lang="en">Digital collections, machine learning and legacies of care</h2>
+      <h2 lang="es">Colecciones digitales, aprendizaje automático y legados de pasión</h2>
+      <h3 lang="en">By Jer Thorp & Jonathan Ashley for <a href="https://labs.loc.gov/" target="_blank">LC Labs</a></h3>
+      <h3 lang="es">Por Jer Thorp & Jonathan Ashley para <a href="https://labs.loc.gov/" target="_blank">LC Labs</a></h3>
+    
+      <p lang="es" class="intro first">
+        En 2018, la Biblioteca del Congreso (BdC) lanzó su <a href="https://www.loc.gov/item/prn-18-123/new-digitally-enabled-and-user-centered-plan-enriches-the-library-of-congress-experience/2018-10-01/" target="_blank">primera estrategia digital global</a>. En el centro del documento había una promesa: abrir el "tesoro” para el público general. Los fondos digitales de la Biblioteca suman casi 200 petabytes. Fotografías, películas, fuentes, códigos, recetas, dibujos arquitectónicos, sitios web, periódicos y grabaciones digitales hechas a partir de cilindros de cera.
+      </p>
+      <p lang="en" class="intro first">
+        In 2018, The Library of Congress released its <a href="https://www.loc.gov/item/prn-18-123/new-digitally-enabled-and-user-centered-plan-enriches-the-library-of-congress-experience/2018-10-01/" target="_blank">first agency-wide digital
+        strategy</a>. At the center of the document was a promise: to throw open the
+        “treasure chest.” The Library’s digital holdings add up to nearly 200
+        petabytes. Photographs, films, source code, recipes, architectural
+        drawings, websites, newspapers, and digital recordings made from wax
+        cylinders.
+      </p>
+      <p lang="es">
+       Con la estrategia digital 2018-2023, la Biblioteca aumentaría exponencialmente estos fondos digitales, intensificando el trabajo de digitalización y reforzando las colecciones de origen digital. El plan también permitiría que muchos más materiales estuvieran disponibles en línea, continuando décadas de digitalización y ampliando los medios para que cualquiera pueda acceder a ellos y descargarlos desde la nube.
+      </p>
+      <p lang="en">
+        With the 2018-2023 digital strategy, the Library would grow these digital
+        holdings exponentially, ramping up digitization work and bolstering
+        born-digital collections. The plan would also see many more of materials
+        made available online, continuing decades of digitization and extending ways for anyone to access and download materials from the cloud.
+      </p>
+      <div class="scrollStep"></div>
+      <p lang="es">
+        Como institución, durante mucho tiempo la Biblioteca del Congreso (LOC en inglés) había acogido a quienes la visitaban en persona, desenrollando mapas y extendiendo libros en las mesas de sus veinte salas de lectura y centros de investigación. Ahora estaba surgiendo una necesidad diferente: personas que querían claves API en lugar de tarjetas de identificación de lector, y más servidores que escritorios.
+      </p>
+      <p lang="en">
+        As an institution, the LOC had long served people who visited in person,
+        unrolling maps and spreading out books on the tables of its twenty
+        reading rooms and research centers. Now a different need was emerging, people who wanted API keys instead of Reader ID cards and server space more than desk space.
+      </p>
+
+      <div class="peopleHolder">
+        <div
+          class="captionOut scrollStep no-js"
+          id="mcclellanCaption"
+          style="width: 200px; left:30vw;"
+        >
+          <p lang="es">Educadores como Jackie Katz.</p>
+          <p lang="en">Educators like Jackie Katz.</p>
+        </div>
+
+     
+        <div
+          class="mock"
+          style="left:40%"
+        >
+           <img src="images/katz.jpg">
+
+        </div>
+
+      </div>
+
+
+      
+      <p lang="es">
+        Katz es profesora de ciencias en un instituto de Nueva Jersey, y utiliza fuentes primarias STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) en clase. Se enteró de que la Biblioteca tenía los papers de Nina Fedoroff, una famosa microbióloga y genetista. Katz colaboró con los archivistas de la División de Manuscritos de la Biblioteca para emular el antiguo software de Fedoroff de los años ochenta y noventa, lo que permitió descubrir algunas de sus hojas de cálculo originales de investigación de campo, secuencias de ADN e imágenes de microscopio.
+      </p>
+      <p lang="en">
+        Katz is a New Jersey high school science teacher who uses STEM primary sources in the classroom. She learned the Library had the papers of Nina Fedoroff - a famous microbiologist and geneticist. Katz collaborated with archivists in the Library’s Manuscript Division to emulate Fedoroff’s old software from the 80s and 90s, unlocking some of her original field research spreadsheets, DNA sequences, and microscope images.
+      </p>
+
+       <div class="peopleHolder">
+          <div
+            class="captionOut scrollStep no-js"
+            id="yooCaption"
+            style="width: 200px; left: 20vw; transform: rotate(3deg)"
+          >
+            <p lang="es">Artistas como Jeffrey Yoo Warren.</p>
+            <p lang="en">Artists like Jeffrey Yoo Warren.</p>
+          </div>
+          <div
+            class="mock"
+            style="margin-left: 50px"
+          >
+            <img src="images/warren.jpg">
+
+          </div>
+      </div>
+
+      <p lang="es">
+        Yoo Warren, artista y educador de Rhode Island, utilizó fotos de archivo, mapas y registros de la colección de la BdC para construir "<a href="https://blogs.loc.gov/thesignal/2024/05/experience-hidden-portals-this-may/" target="_blank">portales ocultos</a>", reconstrucciones inmersivas en 3D de comunidades históricas chino-americanas y coreano-americanas. Estas reconstrucciones basadas en GPS solo pueden experimentarse en los lugares geográficos donde alguna vez existieron estas comunidades, ofreciendo así un recordatorio de cuántas historias han estado <a href="https://www.loc.gov/item/webcast-11065/" target="_blank">ocultas a plena vista</a>.
+      </p>
+      <p lang="en">
+        Yoo Warren, an artist and educator in Rhode Island, used archival photos, maps, and records from the LOC collection to build “<a href="https://blogs.loc.gov/thesignal/2024/05/experience-hidden-portals-this-may/" target="_blank">hidden portals</a>,” immersive 3D reconstructions of historic Chinese American and Korean American communities. These GPS-based reconstructions can only be experienced in the geographic locations where these communities once existed, offering a reminder of how many histories have been <a href="https://www.loc.gov/item/webcast-11065/" target="_blank">hidden in plain sight</a>. 
+      </p>
+
+       <div class="peopleHolder">
+        <div
+          class="captionOut scrollStep no-js"
+          id="mullenCaption"
+          style="width: 200px; left: 15vw; transform: rotate(3deg)"
+        >
+          <p lang="es">Eruditos como Lincoln Mullen.</p>
+          <p lang="en">Scholars like Lincoln Mullen.</p>
+        </div>
+         <div
+          class="mock"
+          style="left:20%"
+        >
+          <img src="images/mullen.jpg">
+
+        </div>
+      </div>
+
+      <p lang="es">
+        Historiador de la Religión Americana, Mullen utiliza métodos computacionales para analizar textos y música. Para su proyecto <a href="https://americaspublicbible.org/" target="_blank">America's Public Bible (Biblia Pública de América)</a>, Mullen escribió un código para procesar millones de páginas de periódicos de la colección de la BdC, en busca de citas bíblicas. El proyecto descubre tendencias y pautas en estas citas, a una escala que sería invisible para los eruditos que utilizaran enfoques no computacionales.
+      </p>
+      <p lang="en">
+        A historian of American Religion, Mullen uses computational methods to
+        analyze text and music. For his project <a href="https://americaspublicbible.org/" target="_blank">America’s Public Bible</a>, Mullen
+        wrote code to process millions of newspaper pages from the LOC’s
+        collection, looking for bible quotes. The project uncovers trends and
+        patterns in these citations, on a scale that would be invisible to
+        scholars using non-computational approaches.
+      </p>
+      <div class="scrollStep">
+        <p lang="es">
+       Un año después de la publicación de la Estrategia Digital, la Biblioteca invitó a Mullen y a otras dos investigadoras – Lauren Tilton y Andromeda Yelton – a formar parte de un proyecto de estudio de caso denominado Computando la Historia Cultural en la Nube (Computing Cultural History in the Cloud o CCHC). El objetivo era averiguar exactamente cómo se abriría al público general el tesoro de la Biblioteca: cómo podría la biblioteca atender las solicitudes de investigación computacional siendo realista en cuanto a sus capacidades institucionales y consciente de los posibles riesgos y perjuicios.
+      </p>
+      <p lang="en">
+        A year after the release of the Digital Strategy, the Library invited
+        Mullen and two other researchers - Lauren Tilton and Andromeda Yelton -
+        to take part in a case study project called Computing Cultural History
+        in the Cloud (CCHC). The goal was to figure out just exactly how the
+        Library’s treasure chest would be thrown open: how the library could
+        serve computational research requests while being realistic about its
+        institutional capabilities, and mindful of potential risks and harms.
+      </p>
+      
+      <p lang="es">
+        El proyecto del CCHC empezó centrándose sobre todo en cuestiones técnicas:
+      </p>
+      <p lang="en">
+        The CCHC project started off centered on mostly technical concerns:
+      </p>
+       <div class="captionOut pile3 no-js" 
+        style="width: 370px; left: 10vw; top:-50px; transform: rotate(3deg)"
+      >
+        <p lang="es">¿Qué formatos de datos eran más útiles para los investigadores?</p>
+        <p lang="en">What data formats were most useful to researchers?</p>
+      </div>
+      <div
+        class="captionOut pile3 no-js"
+        style="width: 370px; left: 1vw; top:-20px; transform: rotate(-3deg)"
+      >
+         <p lang="es">¿Podría la biblioteca ofrecer recursos informáticos para ayudar en el análisis de los datos?</p>
+         <p lang="en">Could the library offer computing resources to help with data analysis?</p>
+      </div>
+      <div
+        class="captionOut pile3 no-js"
+        style="width: 370px; left: 6vw; transform: rotate(2deg); margin-bottom:100px"
+      >
+         <p lang="es">¿Qué cambios de personal serían necesarios para atender estos nuevos tipos de solicitudes?</p>
+         <p lang="en">What staffing changes would be needed to support these new kinds of requests?</p>
+      </div>
+      
+
+      <p lang="es">
+        Yelton, Tilton y Mullen se pusieron manos a la obra. <a href="https://blogs.loc.gov/thesignal/2022/03/cchc-researchers-share-outcomes/" target="_blank">Extrajeron datos y codificaron marcos, diseñaron interfaces y afinaron las preguntas de investigación</a>. Siguiendo de cerca su trabajo, el personal del CCHC recabó valiosas ideas.
+      </p>
+      <p lang="en">
+        Yelton, Tilton and Mullen got to work. <a href="https://blogs.loc.gov/thesignal/2022/03/cchc-researchers-share-outcomes/" target="_blank">They pulled data and coded
+        frameworks, designed interfaces and sharpened research questions</a>.
+        Watching their work closely, the CCHC staff gleaned valuable insights.
+      </p>
+      <div class="scrollStep">
+        <p lang="es">
+        Aprendieron, por ejemplo, que era probable que los investigadores digitales acudieran a la Biblioteca con sus propios marcos, flujos de trabajo y pilas de software. Los investigadores querían que los modos de acceso a los datos fueran sólidos y estuvieran bien documentados, pero no les preocupaba demasiado el formato en que les llegaban los datos. No había una respuesta única a sus necesidades técnicas, ni un formato de archivo o método de entrega que funcionara para cada uno de ellos, y mucho menos para decenas de miles de posibles nuevos usuarios de la Biblioteca.
+      </p>
+      <p lang="en">
+        They learned, for example, that digital researchers were likely to come
+        to the Library with their own frameworks, workflows, and software
+        stacks. The researchers wanted the modes of access to the data to be
+        robust and well documented, but they weren’t overly concerned with the
+        format the data came to them in. There was no one-size-fits-all answer
+        to their technical needs, no file format or delivery method that would
+        work for each of them, let alone for tens of thousands of potential new
+        Library users.
+      </p>
+     </div>
+      <div
+        class="captionOut pile no-js"
+        style="width: 270px; left: 1vw; top: -40px; transform: rotate(3deg)"
+      >
+        <p lang="es">Para chefs que buscan históricas recetas afroamericanas.</p>
+        <p lang="en">For Chefs looking for historic African American recipes.</p>
+      </div>
+      <div
+        class="captionOut pile no-js"
+        style="width: 250px; top: -40px; left: 5vw; transform: rotate(1deg)"
+      >
+        <p lang="es"><a href="https://labs.loc.gov/work/experiments/citizen-dj/" target="_blank">Para DJs que utilizan análisis algorítmicos para encontrar sampleos.</a></p>
+        <p lang="en"><a href="https://labs.loc.gov/work/experiments/citizen-dj/" target="_blank">For DJs using algorithmic analyses to find samples.</a></p>
+      </div>
+      <div
+        class="captionOut pile no-js"
+        style="width: 320px; top: -50px; left: 3vw; transform: rotate(-2deg)"
+      >
+        <p lang="es">Para estudiantes de secundaria que investigan <a href="https://libraryofcongress.github.io/sanborn-navigator/" target="_blank">la historia de sus barrios.</a></p>
+        <p lang="en">For High School students investigating the <a href="https://libraryofcongress.github.io/sanborn-navigator/" target="_blank">histories of their
+        neighborhoods</a>.</p>
+      </div>
+      <div
+        class="captionOut pile no-js"
+        style="width: 300px; top: -60px; left: 10vw; transform: rotate(3deg)"
+      >
+        <p lang="es">Para aficionados al béisbol interesados en saber  <a href="https://crowd.loc.gov/campaigns/branch-rickey-changing-the-game/" target="_blank">cómo los informes de los ojeadores predijeron las carreras de los jugadores de las grandes ligas.</a></p>
+        <p lang="en">For Baseball fans interested in how <a href="https://crowd.loc.gov/campaigns/branch-rickey-changing-the-game/" target="_blank">scouting reports predicted major
+        league playing careers</a>.</p>
+      </div>
+      <div
+        class="captionOut pile no-js"
+        style="width: 270px; top: -30px; left: 20vw; transform: rotate(-2deg)"
+      >
+        <p lang="es"><a href="https://blprnt.medium.com/on-strange-attractors-and-paths-heretofore-untrodden-4d83eec65272" target="_blank">Para artistas de datos que buscan explorar y visualizar amplias franjas de la historia y la cultura.</a></p>
+        <p lang="en"><a href="https://blprnt.medium.com/on-strange-attractors-and-paths-heretofore-untrodden-4d83eec65272" target="_blank">For data artists looking to explore and visualize wide swaths of history
+        and culture.</a></p>
+      </div>
+      <p lang="es">Yo soy parte de estos últimos.</p>
+      <p lang="en">That last one is me.</p>
+      <p lang="es">
+        Cuando llegué a Washington para mi primer día como Innovador Residente en 2017, iba preparado con un montón de ideas sobre cómo utilizaría los datos de la Biblioteca; la magnitud de estos me cautivó: cientos de miles de fotografías, tres siglos de registros de catálogos, dos manzanas de planotecas repletas de mapas. Al igual que los investigadores del CCHC, vine con mis propias herramientas, afiladas y listas.
+
+      </p>
+      <p lang="en">
+        When I came to Washington for my first day as Innovator in Residence in
+        2017, I was prepared with a stack of ideas of how I’d use the Library’s
+        data. I was enamored by the scale of it all: hundreds of thousands
+        photographs, three centuries of catalogue records, two city blocks of
+        flat file cabinets filled with maps. Like the CCHC researchers I came
+        with my own tools, sharpened and ready.
+      </p>
+      <div class="scrollStep">
+        <p lang="es">
+          Durante los dieciocho meses que pasé allí, aprendí una cosa muy importante. Lo aprendí una y otra vez, de diferentes maneras. 
+          Es algo que tú también aprenderás si pasas suficiente tiempo en el cofre del tesoro. Lo aprenderás de códices raros, de archivos web, de código FORTRAN en disquetes. Más aún, lo aprenderás de bibliotecarios, archivistas e historiadores. Lo encontrarás en el corazón de los hallazgos del CCHC y en los significativos paquetes de datos que la Biblioteca está lanzando:
+        </p>
+        <p lang="en">
+          Over the eighteen months I spent there, I’d learned one very important
+          thing. I learned it over and over, in different ways. It’s something
+          that you’ll learn too if you spend enough time in the treasure chest.
+          You’ll learn it from from rare codexes, from web archives, from FORTRAN
+          code on floppy disks. Even more so, you’ll learn it from librarians and
+          archivists and historians. You’ll spot it right at the heart of the
+          CCHC’s findings and in the meaningful data packages the Library is
+          releasing:
+        </p>
+      </div>
+      <p lang="es">
+        Que los datos de la Biblioteca no deben – no pueden – ser separados de su contexto.
+      </p>
+      <p lang="en">
+        That the Library’s data shouldn’t be - that it can’t be - separated from
+        its context.
+      </p>
+      <p>
+        
+      </p>
+      <div class="captionOut pile2 no-js" style="width: 290px; left: 4vw; top:-0px;">
+        <p lang="es">Que el significado proviene del lugar</p>
+        <p lang="en">That meaning comes from place</p>
+      </div>
+      <div class="captionOut pile2 no-js" style="width: 150px; left: 29vw; top:20px">
+        <p lang="es">y del tiempo</p>
+        <p lang="en">and time</p>
+      </div>
+      <div
+        class="captionOut pile2 no-js"
+        style="width: 150px; left: 34vw; margin-top: 100px; top:-70px;"
+      >
+        <p lang="es">y de las personas.</p>
+        <p lang="en">and people.</p>
+      </div>
+      <div
+        class="captionOut scrollStep pile2 no-js"
+        style="
+          width: 200px;
+          left: 32vw;
+          margin-top: 110px;
+          margin-bottom: 100px;
+          top:-60px;
+        "
+      >
+        <p lang="es">Que la escala no es nada sin la historia.</p>
+        <p lang="en">That scale is nothing without story.</p>
+      </div>
+      
+      <div
+        class="captionOut scrollStep no-js"
+        id="triggerCaption"
+        style="
+          width: 200px;
+          left: 20vw;
+          top:0px;
+        "
+      >
+        <p lang="es">He aquí una historia.</p>
+        <p lang="en">Here is a story.</p>
+      </div>
+    </div>
+    <div id="frameset" class="no-js">
+      <div id="frame1" lang="en" class="frame scrollStep no-js" data-scrollama-index="9"></div>
+      <div id="frame1" lang="es" class="frame scrollStep no-js" data-scrollama-index="9"></div>
+      <div id="frame2" lang="en" class="frame scrollStep no-js" data-scrollama-index="10"></div>
+      <div id="frame2" lang="es" class="frame scrollStep no-js" data-scrollama-index="10"></div>
+      <div id="frame3" lang="en" class="frame scrollStep no-js" data-scrollama-index="11"></div>
+      <div id="frame3" lang="es" class="frame scrollStep no-js" data-scrollama-index="11"></div>
+      <div id="frame4" lang="en" class="frame scrollStep no-js" data-scrollama-index="12"></div>
+      <div id="frame4" lang="es" class="frame scrollStep no-js" data-scrollama-index="12"></div>
+      <div id="frame5" lang="en" class="frame scrollStep no-js" data-scrollama-index="13"></div>
+      <div id="frame5" lang="es" class="frame scrollStep no-js" data-scrollama-index="13"></div>
+
+      <div id="frame5b" lang="en" class="frame scrollStep no-js staticOnly" data-scrollama-index="13"></div>
+      <div id="frame5b" lang="es" class="frame scrollStep no-js staticOnly" data-scrollama-index="13"></div>
+
+      <div id="frame6" lang="en" class="frame scrollStep no-js" data-scrollama-index="14"></div>
+      <div id="frame6" lang="es" class="frame scrollStep no-js" data-scrollama-index="14"></div>
+      <div id="frame7" lang="en" class="frame scrollStep no-js" data-scrollama-index="15"></div>
+      <div id="frame7" lang="es" class="frame scrollStep no-js" data-scrollama-index="15"></div>
+      <div id="frame8" lang="en" class="frame scrollStep no-js" data-scrollama-index="16"></div>
+      <div id="frame8" lang="es" class="frame scrollStep no-js" data-scrollama-index="16"></div>
+      <div id="frame9" lang="en" class="frame scrollStep no-js" data-scrollama-index="17"></div>
+      <div id="frame9" lang="es" class="frame scrollStep no-js" data-scrollama-index="17"></div>
+      <div id="frame10" lang="en" class="frame scrollStep no-js" data-scrollama-index="18"></div>
+      <div id="frame10" lang="es" class="frame scrollStep no-js" data-scrollama-index="18"></div>
+      <div id="frame11" lang="en" class="frame scrollStep no-js" data-scrollama-index="19"></div>
+      <div id="frame11" lang="es" class="frame scrollStep no-js" data-scrollama-index="19"></div>
+      <div id="frame12" lang="en" class="frame scrollStep no-js" data-scrollama-index="20"></div>
+      <div id="frame12" lang="es" class="frame scrollStep no-js" data-scrollama-index="20"></div>
+      <div id="frame13" lang="en" class="frame scrollStep last no-js" data-scrollama-index="21"></div>
+      <div id="frame13" lang="es" class="frame scrollStep last no-js" data-scrollama-index="21"></div>
+    </div>
+
+      
+
+<div class="article scrollStep" data-scrollama-index="22">
+<p lang="es">
+El proyecto Computando la Historia Cultural en la Nube finalizó en 2024.
+</p>
+<p lang="en">
+The Computing Cultural Heritage for the Cloud project wrapped up in 2024.
+</p>
+
+<p lang="es">Uno de los resultados centrales del proyecto fue el diseño de paquetes de datos significativos, que traen contexto e información técnica diseñada para ayudar a la gente a comprender los potenciales usos computacionales de los materiales de la Biblioteca. Los paquetes combinan metadatos normalizados, enriquecimientos de metadatos, archivos multimedia, documentación normalizada, contexto narrativo y otras características de usabilidad, como muestras de código y cuadernos.</p>
+<p lang="en">One of the central outcomes of the project was the design of meaningful data packages, which bring together context and technical information designed to help people understand the potential computational uses of the Library’s materials. The packages combine normalized metadata, metadata enrichments, media files, standardized documentation, narrative context, and other usability features such as code samples and notebooks.</p>
+
+<p lang="es">
+Para aprender más sobre estos paquetes de datos y saber cuándo se publican otros nuevos, <a href="https://data.labs.loc.gov" target="_blank">visita data.labs.loc.gov</a>, un espacio nuevo y mejorado para descubrir y utilizar datos exploratorios de la Biblioteca.
+<p lang="en">
+To learn more about these data packages and to find out when new ones are released, visit <a href="https://data.labs.loc.gov" target="_blank">data.labs.loc.gov</a>, a new and improved space for discovering and using exploratory Library data.</p>
+
+<p lang="es">En 2023, la Biblioteca publicó un <a href="https://www.loc.gov/digital-strategy" target="blank">nuevo plan estratégico</a>, que por primera vez incorporaba la estrategia digital de forma global. Un objetivo fundamental de la nueva estrategia es comprender y satisfacer mejor las necesidades de los usuarios de la Biblioteca; servir mejor no solo a su base de usuarios actual, sino también llegar a nuevas comunidades.
+</p>
+<p lang="en">In 2023, the Library released a <a href="https://www.loc.gov/digital-strategy" target="blank">new strategic plan</a>, for the first time incorporating digital strategy throughout. A fundamental goal of the new strategy is to better understand and meet the needs of the Library’s users; to better serve not only its existing user base, but also to reach new communities. 
+</p>
+
+<p lang="es">
+¿Qué nuevas formas se te ocurren de utilizar los materiales de la Biblioteca? <a href="mailto:lc-labs@loc.gov">Estaremos encantados de que nos lo cuentes.</a>
+</p>
+<p lang="en">
+What new ways are you dreaming up to use the Library's materials? <a href="mailto:lc-labs@loc.gov">We'd love to hear from you</a>.
+</p>
+</div> 
+
+<div
+class="captionOut scrollStep ending no-js"
+id="endCaption"
+style="
+  width: 200px;
+  left: 30vw;
+  margin-top: 110px;
+  margin-bottom: 100px;
+">
+
+<p lang="es">Jack Delano murió en 1997 en Puerto Rico. Tenía 83 años. 
+Su féretro yació en capilla ardiente en el capitolio de San Juan.</p>
+<p lang="en">Jack Delano died in 1997 in Puerto Rico. He was 83.
+
+His casket lay in state in the capitol building in San Juan.</p>
+</div>
+<div id="casket">
+  <img src="images/casket_shadow.jpg">
+</div>
+  </body>
+
+  <!-- LoC footer starts here -->
+    <footer class="loc-footer" style="background:#eeefef;border-top:none;">
+
+        <ul class="loc-footer-nav-list" role="navigation">
+            <li><a href="https://github.com/LibraryOfCongress/a-search-for-the-heart">Source code</a></li>  
+            <li><a href="https://www.loc.gov/">The Library of Congress</a></li>
+            <li><a href="https://loc.gov/legal">Privacy Policy</a>.</li>
+            <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Github Privacy Statement</a>.</li>
+            <li><a href="https://creativecommons.org/publicdomain/zero/1.0/">License</a></li>
+            <li><a href="mailto:LC-Labs@loc.gov">LC Labs Contact</a></li>
+        </ul>
+    </footer>
+    <!-- /LoC footer end here -->
+
+
+</html>
