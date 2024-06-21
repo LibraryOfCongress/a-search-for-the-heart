@@ -98,7 +98,10 @@ function setup() {
       //Run through the q sheet and make elements for each, and set up timers
       qSheet.queues.forEach((q) => {
 
-        let d = document.querySelector("#frame" + q.pageNum);
+        let ds = document.querySelectorAll("#frame" + q.pageNum);
+        ds.forEach(d => {
+
+        
 
         if (d.getAttribute("lang") == lang) {
           d.q = q;
@@ -116,6 +119,7 @@ function setup() {
             q.queues.shift();
             p.currentQ++;
         }
+        });
       });
 
       //Initialize the scroll library
@@ -190,6 +194,7 @@ function doScaleAll() {
 }
 
 function doScale(_cw) {
+  console.log(_cw);
   if (_cw.getAttribute("lang") == lang) {
     let fw = _cw.getBoundingClientRect().width;
     let sc = fw/1920 * illiFactor * 1.25;
@@ -197,7 +202,6 @@ function doScale(_cw) {
     let cw = _cw.querySelector(".contentWrap");
     cw.style.transform = "scale(" + sc +  ")";
   }
-
 }
 
 window.onresize = doScaleAll;
