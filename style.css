@@ -665,3 +665,18 @@ footer {
     margin: 0 6px;
 }
 
+.language {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  color: #588292;
+  margin-left:80vw;
+  margin-top:20px;
+}
+
+select {
+  color: #588292;
+  border-color: #588292;;
+}
+
+

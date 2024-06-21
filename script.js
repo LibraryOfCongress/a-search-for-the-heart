@@ -52,6 +52,9 @@ window.onload = function(){
   let qlang = urlParams.get('lang');
   if (qlang) lang = qlang;
 
+    document.querySelector("#select_en").selected = (lang =="en");
+    document.querySelector("#select_es").selected = (lang !="en");
+  
   document.body.setAttribute("lang", lang);
 
   let qstatic = urlParams.get('static');
@@ -65,6 +68,15 @@ function preload() {
   qSheet = loadJSON("qSheet.json");
 }
 
+document.querySelector("#lang-switch").onchange = function(){
+  switchLang(this.value);
+};
+
+
+function switchLang(_lang) {
+  document.body.setAttribute("lang", _lang);
+  lang = _lang
+}
 
 function setup() {
 
@@ -194,7 +206,6 @@ function doScaleAll() {
 }
 
 function doScale(_cw) {
-  console.log(_cw);
   if (_cw.getAttribute("lang") == lang) {
     let fw = _cw.getBoundingClientRect().width;
     let sc = fw/1920 * illiFactor * 1.25;
