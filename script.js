@@ -74,8 +74,7 @@ document.querySelector("#lang-switch").onchange = function(){
 
 
 function switchLang(_lang) {
-  document.body.setAttribute("lang", _lang);
-  lang = _lang
+  window.location = (_lang == "en") ? "https://libraryofcongress.github.io/a-search-for-the-heart/":"https://libraryofcongress.github.io/a-search-for-the-heart/?lang=es"
 }
 
 function setup() {
@@ -107,32 +106,7 @@ function setup() {
         f.remove();
       });
 
-      //Run through the q sheet and make elements for each, and set up timers
-      qSheet.queues.forEach((q) => {
-
-        let ds = document.querySelectorAll("#frame" + q.pageNum);
-        ds.forEach(d => {
-
-        
-
-        if (d.getAttribute("lang") == lang) {
-          d.q = q;
-          q.time = 0;
-            //preload bubbles
-            if (q.bubbleSet) {
-              q.bubbleSet.forEach(b => {
-                preloadImage(b.url);
-              });
-            }
-          
-            //Place a page element for each q page
-            let p = processPage(q, d);
-            processQ(q.queues[0], p, true);
-            q.queues.shift();
-            p.currentQ++;
-        }
-        });
-      });
+      setupPages();
 
       //Initialize the scroll library
       init();
@@ -144,6 +118,33 @@ function setup() {
   lastTime = new Date();
 
   
+}
+
+function setupPages() {
+  //Run through the q sheet and make elements for each, and set up timers
+    qSheet.queues.forEach((q) => {
+
+      let ds = document.querySelectorAll("#frame" + q.pageNum);
+      ds.forEach(d => {
+
+      if (d.getAttribute("lang") == lang) {
+        d.q = q;
+        q.time = 0;
+          //preload bubbles
+          if (q.bubbleSet) {
+            q.bubbleSet.forEach(b => {
+              preloadImage(b.url);
+            });
+          }
+        
+          //Place a page element for each q page
+          let p = processPage(q, d);
+          processQ(q.queues[0], p, true);
+          q.queues.shift();
+          p.currentQ++;
+      }
+      });
+    });
 }
 
 function draw() {
