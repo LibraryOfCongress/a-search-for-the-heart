@@ -1,1 +1,1 @@
-# A Search for the Heart - Dynamic
+# A Search for the Heart
