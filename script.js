@@ -76,7 +76,7 @@ function setup() {
       handleStepEnter({index:4});
       handleStepEnter({index:5});
       handleStepEnter({index:6});
-      handleStepEnter({index:23});
+      handleStepEnter({index:36});
 
       //show the frameset
       document.querySelector("#frameset").style.opacity = 1;
@@ -324,7 +324,6 @@ function processQ(_q, _elt, _isFirst) {
       break;
     case "videoPlay":
       _elt.mainVideo.play();
-      console.log(_elt.mainVideo);
       gsap.to(_elt.mainVideo, {opacity:1})
 
       break;
@@ -422,6 +421,7 @@ function addCaption(_params, _elt) {
 // scrollama event handlers
 function handleStepEnter(response) {
 
+  console.log(response.index);
   if (response.index < 9) {
     hideComic();
   }
@@ -481,7 +481,7 @@ function handleStepEnter(response) {
     hideComic();
   }
 
-  if (response.index == 23) {
+  if (response.index == 36) {
     gsap.to(document.querySelector("#endCaption"), {
       opacity: 1,
       rotation: "2deg",
