@@ -679,4 +679,13 @@ select {
   border-color: #588292;;
 }
 
+@media (max-device-width: 480px) {
+  .language {
+    font-size: 24px;
+  }
+  .select {
+    font-size: 24px;
+  }
+}
+
 
