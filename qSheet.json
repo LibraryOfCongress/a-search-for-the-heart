@@ -1934,8 +1934,8 @@
           "caption": {
             "text_en": "They’re often worse than having no caption at all.",
             "text_es": "a menudo son peores que no tener ninguna leyenda.",
-            "pos": { "x": 570, "y": 12 },
-            "width": 398,
+            "pos": { "x": 670, "y": 12 },
+            "width": 364,
             "extra":"trainSmall"
           }
         }
