@@ -92,7 +92,7 @@
           "caption": {
             "text_en": "Here’s jack again that same night, at a very different party, with a very different group of Puerto Ricans.",
             "text_es": "Aquí está Jack nuevamente, esa misma noche, en una fiesta muy diferente, con un grupo muy diferente de puertorriqueños.",
-            "pos": { "x": 39, "y": 47 },
+            "pos": { "x": 39, "y": 7 },
             "width": 345
           }
         },
@@ -102,7 +102,7 @@
           "caption": {
             "text_en": "The suits are tailored, the shoes are shined.",
             "text_es": "Los trajes están hechos a medida, los zapatos relucientes.",
-            "pos": { "x": 93, "y": 146 },
+            "pos": { "x": 93, "y": 106 },
             "width": 200
           }
         },
@@ -112,7 +112,7 @@
           "caption": {
             "text_en": "The parents are smoking American cigarettes.",
             "text_es": "Los padres fuman cigarrillos americanos.",
-            "pos": { "x": 278, "y": 155 },
+            "pos": { "x": 278, "y": 115 },
             "width": 321
           }
         },
