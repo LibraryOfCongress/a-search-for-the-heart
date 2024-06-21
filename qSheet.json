@@ -2035,7 +2035,7 @@
           "type": "caption",
           "time": 16.5,
           "caption": {
-            "text_en": "A model trained on imagenet then, knows only what it has learned from the <strong>internet/<strong> (memes and all), read through the lens of a newspaper from <strong>New York City</strong>, written for middle-aged stock traders.",
+            "text_en": "A model trained on imagenet then, knows only what it has learned from the <strong>internet</strong> (memes and all), read through the lens of a newspaper from <strong>New York City</strong>, written for middle-aged stock traders.",
             "text_es": "Un modelo entrenado en imagenet, entonces, sólo sabe lo que ha aprendido de <strong>internet</strong> (incluyendo memes y el resto), leído a través de la lente de un periódico de <strong>nueva york</strong>, escrito para operadores de bolsa de mediana edad.",
             "pos": { "x": 145, "y": 637 },
             "width": 329,
