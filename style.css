@@ -653,6 +653,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     position: relative;
+    padding-top: 15px
 }
 .loc-footer .loc-footer-nav-list {
     display: flex;
