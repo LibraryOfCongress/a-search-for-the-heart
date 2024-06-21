@@ -2123,7 +2123,7 @@
           "caption": {
             "text_en": "An old man who is trying to remember the faces of his friends",
             "text_es": "un anciano que intenta recordar las caras de sus amigos",
-            "pos": { "x": 16, "y": 614 },
+            "pos": { "x": 16, "y": 634 },
             "width": 126,
             "extra":"trainSmall"
           }
@@ -2135,7 +2135,7 @@
           "caption": {
             "text_en": "A comic book artist who needs a reference for a crowded three kings party in a farmer’s house",
             "text_es": "Un dibujante de cómics que  necesita una modelo de una concurrida fiesta de Reyes Magos en casa de un granjero",
-            "pos": { "x": 310, "y": 638 },
+            "pos": { "x": 310, "y": 652 },
             "width": 202,
             "extra":"trainSmall"
           }
