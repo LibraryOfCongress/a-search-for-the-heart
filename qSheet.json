@@ -2048,7 +2048,7 @@
           "caption": {
             "text_en": "<strong>It is a model that knows a lot about cats...</strong>",
             "text_es": "<strong>Es un modelo que sabe mucho sobre gatos…</strong>",
-            "pos": { "x": 532, "y": 607 },
+            "pos": { "x": 592, "y": 647 },
             "width": 297
           }
         },
@@ -2058,7 +2058,7 @@
           "caption": {
             "text_en": "<strong>and very little about Puerto Rico in the 1940s.</strong>",
             "text_es": "<strong>y muy poco sobre  puerto rico en la década del 40.</strong>",
-            "pos": { "x": 709, "y": 667 },
+            "pos": { "x": 769, "y": 707 },
             "width": 255
           }
         }
