@@ -113,7 +113,7 @@
             "text_en": "The parents are smoking American cigarettes.",
             "text_es": "Los padres fuman cigarrillos americanos.",
             "pos": { "x": 298, "y": 115 },
-            "width": 301
+            "width": 230
           }
         },
         {
@@ -182,7 +182,7 @@
           "caption": {
             "text_en": "Telling the stories of peoples’ lives through his lens.",
             "text_es": "contar la vida de la gente a través de su cámara.",
-            "pos": { "x": 505, "y": 685 },
+            "pos": { "x": 530, "y": 685 },
             "width": 483
           }
         }
