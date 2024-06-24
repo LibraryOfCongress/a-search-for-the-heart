@@ -79,7 +79,7 @@ function switchLang(_lang) {
 
 function setup() {
 
-    publishCaptions();
+    //publishCaptions();
 
     if (typeof(ResizeObserver) == "undefined" || static) {
       //Show the page captions
@@ -536,7 +536,7 @@ function publishCaptions() {
         try {
         out.push("Caption: " + qc.caption["text_" + lang].replace(regex,""));
         } catch (e) {
-          
+
         }
       }
     });
