@@ -1,0 +1,166 @@
+----------PAGE:1
+A group of men are sitting in a small wooden farmhouse. A tree in the corner is decorated with a box holding three wooden figures. One of the men is playing a guitar and the rest of the men are listening intently. A photographer stands in the foreground.
+Caption: It’s January 6th in Guanica, Puerto Rico.
+Caption: Three King’s Eve.
+Caption: Tomorrow there will be parades and festivals, but tonight there is food and drink and music.
+ Inside this tiny farmers home the playing has been going for hours. The air smells of ripe fruit, warm bodies and tobacco. 
+Caption: This is Jack Delano
+----------PAGE:2
+A man in the foreground is photographing a crowd of people in a ballroom. People are wearing formal dress. 
+Caption: Here’s jack again that same night, at a very different party, with a very different group of Puerto Ricans.
+Caption: The suits are tailored, the shoes are shined.
+Caption: The parents are smoking American cigarettes.
+Caption: Jack didn’t expect to be in Puerto Pico. But he’s determined to make the best out of it by doing what he knows:
+Caption: Telling the stories of peoples’ lives through his lens.
+----------PAGE:3
+A montage of small scenes. A coal miner emerges, dirty, from a mine, leading a mule. A girl hits a tobacco branch with  stick. A group of ship workers play pool.
+Caption: In the two years before jack arrived in Puerto Rico he has photographed people from all walks of life... 
+Caption: Bootleg coal miners in Pennsylvania...
+Caption: Children working on tobacco plantations in Connecticut...
+Caption: Ship builders on break in Maine.
+----------PAGE:4
+It is a cold winter night, snow is falling. A man with a camera is on a bridge over a rail yard where several trains are parked. A figure, perhaps a yard worker, walks across the tracks.
+Caption: Over the winter of 1941, Jack took a cross-country journey, photographing rail yards and workers.
+Caption: This was the start of a years-long project that would result in some of the most iconic and important images of the era.
+----------PAGE:5
+On the left, a series of comic book panels show a ship on the ocean, a scene from Pearl Harbour, a calendar page with en entry crossed out: it reads 'return to New York'. On the right, a photographer standing in front of scenes of a streetscape,  protest, and a family in a modest wooden shack.
+Caption: In December, 1941, Jack had been heading to the U.S. Virgin Islands on assignment...
+Caption: at the exact moment pre-war America ceased to exist.
+Caption: A few days became a week.
+Caption: Jack had no way to leave Puerto Rico. His wife Irene was in NYC.
+Caption: Irene, not the type to wait, smuggled herself into puerto rico on an ocean liner.
+Caption: From then on they were a team.
+Caption: Over the next three months the Delanos will visit every part of the small caribbean island nation
+Caption: Jack will shoot more than 2,000 photographs.
+----------PAGE:6
+Caption: These photographs tell the story of a time
+Caption: The story of a place
+Caption: The story of a nation.
+Caption: The story of a people.
+Caption: In this photograph there is a dream
+Caption: In this one there's a tragedy
+Caption: In this one there is a whole life left to be lived
+Caption: In this image there is a question
+Caption: In this one there is an answer
+Caption: There are
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: many
+Caption: so
+Caption: so
+Caption: many
+Caption: stories.
+----------PAGE:7
+On the left, a man and a woman hold photographs in their hand. They appear contemplative. On the right, two people seated at desks. The first person has a number of carts with boxes around their desk, and is looking at a photograph. The second person has mountains of boxes at their desk, and is very old.
+Caption: We sent all of our negatives by mail to Washington to be developed.
+Caption: Roy Stryker would have prints made of the ones he liked most and send them back.
+Caption: We spent our evenings filling in caption books with details about each frame we shot.
+Caption: We wrote long letters back to roy, too. But it seems like many of those have gotten lost.
+Caption: If you spent just five minutes describing each photo Jack Delano took in Puerto Rico, it’d take you 65 days.
+Caption: if you spent just one minute with every photograph in the Library’s photo collection, you’d be there for more than twenty-six years.
+----------PAGE:8
+A woman in a purple jacket stands in the stacks of a library. She is looking at a photograph and holding an archival box. The same woman is shown in the foreground, speaking.
+Caption: This is Helena Zinkham, chief of the Library of Congress Prints and Photographs Division.
+Caption: When somebody goes searching for a photograph at the Library of Congress, their chances of actually finding it are really dependent on how much information is attached to that photograph.
+Caption: Every little piece of data makes an object more findable.
+Caption: Our catalogers do their best to add as many details to the records as they can.
+Caption: But there are more than fourteen million photographs in the collection and for a lot of those images there is very little information in the catalog.
+Caption: What if computers could help Helena's team to fill some of the gaps in the catalog data? this could make photos like Jack’s more findable for anyone looking for images of Puerto Rico in the 1940s.
+----------PAGE:9
+Caption: Let's give it a try with this image.
+Caption: We’LL use a machine learning model called The Vision Transformer (VIT).
+Caption: The vision transformer does two things.
+Caption: 1. It tries to detect known elements in the image (things like people or cars or flowers), and it learns the size & position of those things.
+Caption: 2. It uses what it has learned from the labelled images it was trained on to generate a new caption.
+Caption: { "generated_text": &emsp;&emsp;&emsp;"a man standing next to a building with a horse "}
+Caption: Sometimes the image descriptions we get from Jack’s images of Puerto Rico are accurate... if a little bit unimaginative.
+Caption: { "generated_text": &emsp;&emsp;&emsp;"people standing around a building "}
+Caption: Very often though, the models struggle with objects that aren’t found a lot in their training sets (like sugar cane)
+Caption: { "generated_text": &emsp;&emsp;&emsp;"a man in a field with a bunch of dead trees "}
+Caption: ... and places that aren’t in their world view, like low-income settlements.
+Caption: { "generated_text": &emsp;&emsp;&emsp;"a woman is standing in a parking lot "}
+Caption: These machine-generated captions come nowhere near the Library’s exacting standards.
+Caption: They’re often worse than having no caption at all.
+----------PAGE:10
+A group of people work in various different settings: Sitting on the floor, working together at a long desk, and seated at tables in a cafe. At the bottom right there is a pile of thirty cats, playing and cuddling each other.
+Caption: These kinds of machine learning models are often trained on a 2012 dataset called ImageNet.
+Caption: Imagenet contains 14,197,122 images, scraped from the internet.
+Caption: These images were individually tagged by content workers all around the world (who were often making far less than minimum wage).
+Caption: Workers could choose to tag images from 22,000 ‘classes’, borrowed from a lexical database called wordnet.
+Caption: The classes themselves came from grad students who, in the 1990s, hand-tagged text content from the Wall Street Journal.
+Caption: A model trained on imagenet then, knows only what it has learned from the internet (memes and all), read through the lens of a newspaper from New York City, written for middle-aged stock traders.
+Caption: It is a model that knows a lot about cats...
+Caption: and very little about Puerto Rico in the 1940s.
+----------PAGE:11
+On the left, there is a grid of four portraits: A young girl, an older woman, an elderly man and a younger man holding a pencil. On the right, there is a group of high school students standing in front of a bank of lockers. Below them in a separate frame is a mother with two young children.
+Caption: Instead of a model trained on random images from the internet, we might imagine a model trained on the thousands of images Jack Delano took in Puerto Rico, and thousands more images from the Library of Congress collections. a tool like this could help a lot of people...
+Caption: A 9 year old girl who wants to know more about how her grandparents grew up
+Caption: A researcher who’s studying latin american labor movements
+Caption: An old man who is trying to remember the faces of his friends
+Caption: A comic book artist who needs a reference for a crowded three kings party in a farmer’s house
+Caption: It would also raise a lot of questions.
+Caption: Why is all of this kind of work being done by big, for-profit companies?
+Caption: And why does the data always seem to get used by people who aren’t Puerto Rican?
+Caption: It all just feels like another flavor of colonialism.
+Caption: If images of my ancestors are being used to train facial recognition, what does that mean for me?
+Caption: What does it mean for my kids?
+Caption: Thinking about A.I. in the context of communities, care, and responsibility is hard, but necessary.
+Caption: We might ask our friend Jack Delano for some advice...
+----------PAGE:12
+There are two versions of the same man: a younger one standing on the left looking at a strip of photographic negatives, and an older one seated at a desk.
+Caption: There’s no way we could have known about the ways our photographs might be used eighty years in the future.
+Caption: Machine labeling? facial recognition? None of that would have even occurred to us.
+Caption: But we always did have one principle that guided the work that we did. All of it, from Pennsylvania to Puerto Rico.
+Caption: And that was to always treat our subjects with respect.
+----------PAGE:13
+A group of people are in a room, perhaps in a school or a community center. There are photographs posted on the walls, and on table in the center. There are a number of people around the room and at the table, talking and working together. There are elderly people and kids of a variety of ethnicity, and there is a dog wagging its tail with its paws up on the table.
+Caption: Respect means making sure the people who are most deeply connected to the data are in the room when decisions are made
+Caption: It means imagining ways these technologies might help people and communities, while also being mindful of risks and harms and unexpected consequences.
+Caption: It means coming together to talk.
+Caption: To listen.
+Caption: To learn.
+Caption: To collaborate.
+Caption: To dream.

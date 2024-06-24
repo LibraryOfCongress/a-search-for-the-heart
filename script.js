@@ -79,6 +79,8 @@ function switchLang(_lang) {
 
 function setup() {
 
+    publishCaptions();
+
     if (typeof(ResizeObserver) == "undefined" || static) {
       //Show the page captions
       handleStepEnter({index:1});
@@ -520,6 +522,27 @@ function handleStepEnter(response) {
     }
   }
 }
+
+function publishCaptions() {
+  let out = [];
+  let regex = /(<([^>]+)>)/ig
+  qSheet.queues.forEach(q => {
+    out.push("----------PAGE:" + q.pageNum);
+    q.queues.forEach(qc => {
+      if (qc.type == "videoLoad") {
+        out.push(qc.description);
+      }
+      if (qc.type == "caption") {
+        try {
+        out.push("Caption: " + qc.caption["text_" + lang].replace(regex,""));
+        } catch (e) {
+          
+        }
+      }
+    });
+  });
+  saveStrings(out, 'captions_' + lang + '.txt');
+} 
 
 function handleStepExit(response) {
   if (response.element.classList.contains("frame")) {
